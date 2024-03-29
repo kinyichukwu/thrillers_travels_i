@@ -5,13 +5,15 @@ import { FaChevronDown } from "react-icons/fa";
 import nav_img from "./assets/nav_img.jpeg";
 import nav_map from "./assets/nav_map.jpeg";
 import "./index.css";
+import emirates from "./assets/flightimg/Emirates.jpeg";
+import map from "./assets/flightimg/map.jpeg";
 
 function DottedBottom() {
   return (
     <div className="flex relative justify-between items-center">
       <div className="w-6 h-6 rounded-full bg-t translate-x-[-.75rem]"></div>
 
-      <div className="w-full max-h-[1px]  border-dashed border-t"></div>
+      <div className="w-full max-h-[1px]  border-dashed border-t-[3px]"></div>
 
       <div className="w-6 h-6 rounded-full bg-t translate-x-[.75rem]"></div>
     </div>
@@ -56,7 +58,7 @@ export default function Home() {
             <div className="flex justify-between items-center flex-wrap px-6 py-8">
               {/**one */}
               <div className="">
-                <img src="./assets/flightimg/Emirates.jpeg" />
+                <img src={emirates}/>
               </div>
               {/**two */}
               <div className="flex flex-col justify-between items-end   h-20">
@@ -89,7 +91,7 @@ export default function Home() {
             <div className="flex justify-between items-center flex-wrap px-6 py-8">
               {/**one */}
               <div className="">
-                <img src="./assets/flightimg/Emirates.jpeg" />
+                  <img src={emirates}/>
               </div>
               {/**two */}
               <div className="flex flex-col justify-between items-end   h-20">
@@ -122,7 +124,7 @@ export default function Home() {
             <div className="flex justify-between items-center flex-wrap px-6 py-8">
               {/**one */}
               <div className="">
-                <img src="./assets/flightimg/Emirates.jpeg" />
+                  <img src={emirates}/>
               </div>
               {/**two */}
               <div className="flex flex-col justify-between items-end   h-20">
@@ -155,7 +157,7 @@ export default function Home() {
             <div className="flex justify-between items-center flex-wrap px-6 py-8">
               {/**one */}
               <div className="">
-                <img src="./assets/flightimg/Emirates.jpeg" />
+                  <img src={emirates}/>
               </div>
               {/**two */}
               <div className="flex flex-col justify-between items-end   h-20">
@@ -202,7 +204,7 @@ export default function Home() {
               </div>
             </div>
 
-            <img src="./assets/flightimg/map.jpeg" />
+            <img src={map} />
 
             <div className="bg-[#3d5653] w-full px-6 ">
               <div className="flex justify-between py-7">
