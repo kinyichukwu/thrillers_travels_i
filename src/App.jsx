@@ -21,6 +21,15 @@ function DottedBottom() {
 }
 
 export default function Home() {
+  if (window.innerWidth < 1200) {
+    return (
+      <div className="text-center text-2xl font-bold text-p h-screen flex justify-center items-center">
+        {" "}
+        <h2 className="">Please view this page on a larger screen 🥂😕</h2>
+      </div>
+    );
+  }
+
   return (
     <main className="flex ">
       {/* Sidebar */}
@@ -58,7 +67,7 @@ export default function Home() {
             <div className="flex justify-between items-center flex-wrap px-6 py-8">
               {/**one */}
               <div className="">
-                <img src={emirates}/>
+                <img src={emirates} />
               </div>
               {/**two */}
               <div className="flex flex-col justify-between items-end   h-20">
@@ -91,7 +100,7 @@ export default function Home() {
             <div className="flex justify-between items-center flex-wrap px-6 py-8">
               {/**one */}
               <div className="">
-                  <img src={emirates}/>
+                <img src={emirates} />
               </div>
               {/**two */}
               <div className="flex flex-col justify-between items-end   h-20">
@@ -124,7 +133,7 @@ export default function Home() {
             <div className="flex justify-between items-center flex-wrap px-6 py-8">
               {/**one */}
               <div className="">
-                  <img src={emirates}/>
+                <img src={emirates} />
               </div>
               {/**two */}
               <div className="flex flex-col justify-between items-end   h-20">
@@ -157,7 +166,7 @@ export default function Home() {
             <div className="flex justify-between items-center flex-wrap px-6 py-8">
               {/**one */}
               <div className="">
-                  <img src={emirates}/>
+                <img src={emirates} />
               </div>
               {/**two */}
               <div className="flex flex-col justify-between items-end   h-20">
