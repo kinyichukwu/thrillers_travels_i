@@ -2,7 +2,9 @@ import Profile from "./components/side_bar/profile/profile";
 import FullMenu from "./components/side_bar/menu/full_menu";
 import FlightHeading from "./components/main_content/heading/heading";
 import { FaChevronDown } from "react-icons/fa";
-import './index.css'
+import nav_img from "./assets/nav_img.jpeg";
+import nav_map from "./assets/nav_map.jpeg";
+import "./index.css";
 
 function DottedBottom() {
   return (
@@ -27,8 +29,8 @@ export default function Home() {
         <div className="ml-5 p-5 flex flex-col gap-5">
           <h2 className=" text-p">ACTIVE USERS</h2>
 
-          <img src="./assets/nav_img.jpeg" className="w-[9rem]" />
-          <img src="./assets/nav_map.jpeg" />
+          <img src={nav_img} className="w-[9rem]" />
+          <img src={nav_map} />
         </div>
       </div>
 
